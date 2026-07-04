@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1120" viewBox="0 0 900 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131a"/>
+      <stop offset=".58" stop-color="#0a0f13"/>
+      <stop offset="1" stop-color="#030509"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7df9ff"/>
+      <stop offset="1" stop-color="#baf7d0"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1120" fill="url(#bg)"/>
+  <rect x="70" y="70" width="760" height="980" rx="10" fill="none" stroke="#eef7f6" stroke-opacity=".12"/>
+  <circle cx="660" cy="270" r="170" fill="#7df9ff" opacity=".13" filter="url(#soft)"/>
+  <circle cx="236" cy="760" r="210" fill="#baf7d0" opacity=".08" filter="url(#soft)"/>
+  <path d="M176 790c62-154 142-232 274-232s214 78 274 232v168H176z" fill="#101920" stroke="#eef7f6" stroke-opacity=".12"/>
+  <circle cx="450" cy="394" r="146" fill="#151e24" stroke="#eef7f6" stroke-opacity=".16"/>
+  <path d="M326 438c46 72 202 72 248 0" fill="none" stroke="#7df9ff" stroke-opacity=".42" stroke-width="4"/>
+  <path d="M272 246h356M220 302h460M188 864h524M188 916h384" stroke="url(#line)" stroke-opacity=".34" stroke-width="2"/>
+  <g fill="#7df9ff">
+    <circle cx="272" cy="246" r="6"/>
+    <circle cx="628" cy="246" r="6"/>
+    <circle cx="188" cy="864" r="6"/>
+    <circle cx="712" cy="864" r="6"/>
+  </g>
+  <text x="450" y="108" fill="#7df9ff" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">HARDWARE DESIGNER</text>
+  <text x="450" y="1010" fill="#eef7f6" fill-opacity=".56" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">GY · Sensor · PCB · Embedded</text>
+</svg>

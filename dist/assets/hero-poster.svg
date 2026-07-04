@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02040a"/>
+      <stop offset="0.48" stop-color="#071118"/>
+      <stop offset="1" stop-color="#03050a"/>
+    </linearGradient>
+    <pattern id="grid" width="88" height="88" patternUnits="userSpaceOnUse">
+      <path d="M88 0H0v88" fill="none" stroke="#7df9ff" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)" opacity=".7"/>
+  <path d="M142 740h480l86-128h268l94-188h552" fill="none" stroke="#7df9ff" stroke-opacity=".42" stroke-width="3" filter="url(#glow)"/>
+  <path d="M320 292h302l110 82h340l88-142h428" fill="none" stroke="#baf7d0" stroke-opacity=".28" stroke-width="2"/>
+  <g fill="#7df9ff" opacity=".72" filter="url(#glow)">
+    <circle cx="622" cy="740" r="7"/>
+    <circle cx="708" cy="612" r="7"/>
+    <circle cx="976" cy="612" r="7"/>
+    <circle cx="1070" cy="424" r="7"/>
+    <circle cx="1622" cy="424" r="7"/>
+  </g>
+  <g stroke="#eef7f6" stroke-opacity=".14">
+    <rect x="1160" y="540" width="258" height="178" rx="8" fill="#0a141b" fill-opacity=".38"/>
+    <path d="M1200 580h178M1200 620h132M1200 660h190"/>
+  </g>
+</svg>
